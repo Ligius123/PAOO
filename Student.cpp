@@ -19,6 +19,11 @@ m_grad_year(start_year + 4) {
    std::cout<< "Object constructed" << std::endl;
 }
 
+// Student& operator = (const Student&) = delete;
+// Student(const Student&) = default;
+// Student(const Student&);
+
+
 virtual void presentation(){
     std::cout<< "My name is: " << m_name << ", I'm " << m_age << " and I'm a Computer Science student" << std::endl;
 }
