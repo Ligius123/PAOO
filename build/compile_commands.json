@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ligius/Desktop/PAOO/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/PAOO.dir/main.cpp.o -c /home/ligius/Desktop/PAOO/main.cpp",
+  "file": "/home/ligius/Desktop/PAOO/main.cpp"
+}
+]
