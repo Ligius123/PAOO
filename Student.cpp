@@ -31,8 +31,6 @@ private:
 
 Student& operator = (const Student&);
 Student(const Student&);
-// Student& operator = (const Student&) = delete;
-// Student(const Student&) = default;
-// Student(const Student&);
+
 
 };
