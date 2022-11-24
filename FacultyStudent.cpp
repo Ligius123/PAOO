@@ -27,13 +27,15 @@ class FacultyStudent : public Student{
 
     FacultyStudent& operator = (const FacultyStudent& rhStudent){
     std::cout << "Derived copy assignment operator called" << std::endl;
-    
     if(this != &rhStudent){
       Student::operator = (rhStudent);
       m_credits = rhStudent.m_credits;
       return *this;
     }
-    return *this;
+    else{
+      std::cout << "The same object" << std::endl;
+      return *this;
+    }
 }
 
      ~FacultyStudent(){

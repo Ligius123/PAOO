@@ -21,7 +21,6 @@ facultyStudent3.presentation();
 facultyStudent4.presentation();
 
 facultyStudent1 = facultyStudent1;
-facultyStudent1.presentation();
 
     return 0;
 }
